@@ -12,7 +12,7 @@ public class Job{
         boolean[] times= new boolean[n];
         int[] seq= new int[n];
         int i=0;
-        int[] result = new int[n];
+       // int[] result = new int[n];
         for( i=0;i<n;i++)
         times[i]=false;
         for(i=0;i<n;i++)
@@ -45,7 +45,7 @@ public class Job{
             {
                 if(times[h]==false)
                 {
-                    result[k]=profit[k];
+                    //result[k]=profit[k];
                     times[h]=true;
                     int r=h+1;
                     System.out.println(h+" to "+r+" "+seq[k]+" "+profit[k]);
@@ -56,10 +56,6 @@ public class Job{
                 continue;
             }
         }
-        System.out.println("\n\n\n");
-        for(int j=0;j<n;j++)
-        {
-            System.out.println(result[j]);
-        }
+    
     }
 }
