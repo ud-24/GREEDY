@@ -1,3 +1,6 @@
+/*THIS IS FRATIONAL KNAPSACK PROBLEMM 
+COPYRIGHT YUDHISTHER BHARGAVA*/
+
 import java.io.*;
 import java.util.*;
 public class Fknapsack{
